@@ -5,20 +5,14 @@ function App() {
   
   return (
     <>
-      <img src="../images/human.jpg"></img>
-      <h1>Phanphut Saengkitamorn</h1>
-
-      <b1>E-mail : </b1><br></br>
-      <b2>Address : 50 SoiPipaksa2, Padungdao Road, Samphanthawong, Samphanthawong, Bangkok 10100</b2>
-      
-      <div className="card">
-        <p>
-          
-        </p>
+      <div id="header">
+        <img src="../images/human.jpg" id="Profpic"></img>
+        <h1 id="Name">Phanphut Saengkitamorn</h1>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <p id="Email"><b>E-mail :</b> </p>
+      <p id="Address"><b>Address :</b> 50 SoiPipaksa2, Padungdao Road, Samphanthawong, Samphanthawong, Bangkok 10100</p>
+      <p><b>Tel :</b> 082-734-3855</p>
+      <p>I'm Bachelor of Computer engineering </p>
     </>
   )
 }
